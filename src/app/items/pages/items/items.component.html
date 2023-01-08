@@ -1,0 +1,13 @@
+<!-- <mat-drawer-container class="sidenav"> -->
+
+<div class="container">
+
+  <mat-card class="item-card" *ngFor="let item of this.items">
+    <div class="item-card__header">
+      <a href="items/{{item.id}}">{{item.name}}</a>
+    </div>
+
+    <div class="item-card__description">{{item.description}}</div>
+  </mat-card>
+
+</div>

@@ -1,0 +1,38 @@
+.container {
+  padding: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 260px);
+  justify-content: space-between;
+  grid-gap: 20px;
+}
+
+.item-card {
+  height: 200px;
+  width: 240px;
+
+  text-align: center;
+
+  &__header {
+    font-size: 25px;
+  }
+
+  &__description {
+    margin-top: 20px;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
