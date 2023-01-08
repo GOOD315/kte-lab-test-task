@@ -9,9 +9,6 @@ import { ItemsService } from 'src/app/services/items.service';
   styleUrls: ['./items.component.scss']
 })
 export class ItemsComponent implements OnInit {
-  pageSize: number = 5;
-  pageIndexx: number = 0;
-
   items!: Array<Item>;
   itemsSubscription!: Subscription;
   selectedItem!: Item;
